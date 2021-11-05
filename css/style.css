@@ -1,0 +1,49 @@
+.header {
+  display: flex;
+  color: Navy;
+  font-size: 25px;
+  margin: 20px;
+  font-weight: bold;
+}
+.nav {
+  margin: auto 0 0 auto;
+  font-size: 60%;
+}
+ul {
+  display: flex;
+}
+li {
+  list-style: none;
+}
+a {
+  display: block;
+  text-decoration: none;
+  color: Navy;
+  margin-right: 20px;
+}
+.margin-right_none {
+  margin-right: 0;
+}
+.relative {
+  position: relative;
+  margin-top: 50px;
+  top: 60px;
+}
+.relative_img {
+  margin: 0 0 0 auto;
+  display: block;
+  width: 50%;
+  height: 40%;
+}
+.absolute {
+  position: absolute;
+  top: 70%;
+  font-size: 70px;
+  font-weight: normal;
+}
+.box {
+  width: 75%;
+  height: 160px;
+  background-color: Navy;
+  margin: 0 0 20px 0;
+}
